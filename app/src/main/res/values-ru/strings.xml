@@ -2,4 +2,5 @@
     <string name="app_name">Погодное приложение</string>
     <string name="activity_main_text">Погодное приложение</string>
     <string name="activity_main_text_next">Стадия разработки</string>
+    <string name="weather_app_name">Погодное приложение</string>
 </resources>
