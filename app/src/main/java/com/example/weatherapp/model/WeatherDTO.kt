@@ -1,5 +1,9 @@
 package com.example.weatherapp.model
 
+import com.example.weatherapp.model.details.Fact
+import com.example.weatherapp.model.details.Forecast
+import com.example.weatherapp.model.details.Info
+
 data class WeatherDTO(
     val fact: Fact,
     val forecast: Forecast,

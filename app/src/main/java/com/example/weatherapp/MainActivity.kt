@@ -11,9 +11,10 @@ class MainActivity : AppCompatActivity() {
 
 
         if (savedInstanceState == null) {
+            val bundle : Bundle = Bundle()
             supportFragmentManager
                 .beginTransaction()
-                .add(R.id.activity_main_frame, NavigationFragment())
+                .add(R.id.activity_main_frame, NavigationFragment.newInstance(bundle))
                 .addToBackStack("Main Activity")
                 .commit()
         }
